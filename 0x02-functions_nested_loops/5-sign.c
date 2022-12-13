@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - prints the sign of a number
- * @c: the number of the sign to be printed
+ * @n: the number of the sign to be printed
  * Return: 1 if number is greater than xero
  * 0 of number is zero
  * -1 if number is less than zero
