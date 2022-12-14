@@ -4,14 +4,14 @@
  * @n: the number
  * Return: value of the last digit
  */
-int print_last_digit(int pld)
+int print_last_digit(int n)
 {
-	int pld;
-		pld = (pld % 10);
-		if (pld < 0)
+	int n;
+		n = (n % 10);
+		if (n < 0)
 		{
-			pld = (-1 * pld);
+			n = (-1 * n);
 		}
-		_putchar(pld + '0');
-		return (pld);
+		_putchar(n + '0');
+		return (n);
 }
